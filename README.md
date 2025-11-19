@@ -29,3 +29,6 @@ This setup supports **API-based login** on the external server for custom authen
 - **Settings > Authorization Access**: Add pre-auth domains (e.g., `google-analytics.com`)
 
 **Important**: Do *not* include 'captive portal' detection domains from Google/Apple/Windows in pre-auth lists, or the redirect will fail.
+
+#### Web Server login
+- Use login.php and **UniFi-API-client** for UniFi guest authorization via API.
